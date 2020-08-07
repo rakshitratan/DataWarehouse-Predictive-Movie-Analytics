@@ -22,7 +22,7 @@ In this project, we will use the IMDB-Movie rank data as well as the movie data 
 The objective of a data warehouse design is to create a schema that is optimized for decision support processing. The relational model is used in systems where many transactions are executed, most of them concurrently. A transaction inserts, updates or in any other way processes data in a database. In many occasions a transaction is an integral part of the business process. A Relational Database is a set of database tables that are related using keys from other database tables. 
 
 ![Alt Text](https://github.com/rakshitratan/DataWarehouse-Predictive-Movie-Analytics/blob/master/IMG-20200423-WA0016.jpg)
-:--: Fig. ENTITY RELATIONSHIP DIAGRAM :--:
+:--: Fig. ENTITY RELATIONSHIP DIAGRAM
 
 Each point of data in each data base can be split into two basic entities, namely attributes and measures. Dimensions or attributes are descriptive details about various objects allowing for their detailed analysis, measures are those that can be added across all dimensions. Measures are called facts. Facts are the reporting unit of any data warehouse, i.e. those are the ones that are manipulated, measured, and reported for analysis. Dimensions are those against which these facts are reported. So, it can be said that dimensions give extra information regarding the facts. A star schema consists of a central fact table which is linked directly to each of the dimension tables via a “one to one” OR “one to many” relationships.
 
