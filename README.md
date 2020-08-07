@@ -27,7 +27,7 @@ The objective of a data warehouse design is to create a schema that is optimized
 Each point of data in each data base can be split into two basic entities, namely attributes and measures. Dimensions or attributes are descriptive details about various objects allowing for their detailed analysis, measures are those that can be added across all dimensions. Measures are called facts. Facts are the reporting unit of any data warehouse, i.e. those are the ones that are manipulated, measured, and reported for analysis. Dimensions are those against which these facts are reported. So, it can be said that dimensions give extra information regarding the facts. A star schema consists of a central fact table which is linked directly to each of the dimension tables via a “one to one” OR “one to many” relationships.
 
 ![Alt Text](https://github.com/rakshitratan/DataWarehouse-Predictive-Movie-Analytics/blob/master/IMG-20200423-WA0022.jpg)
-<center>Fig. STAR SCHEMA </center>
+->Fig. STAR SCHEMA <-
 
 <h3>4.	Dimensions Tables:</h3>
 •	Sale Dimension Table/SaleDim: The Sale dimension table consists of five attributes having Sales key as Primary Key, SalesId, No of Tickets sold, LocationId <br>
