@@ -40,6 +40,6 @@ Fig. STAR SCHEMA
 
 An ETL process is defined for stage-wise loading of different data sources into raw data tables, generating dimensions and facts, and deploying the cube for further BI analysis. This ETL process is configured in Visual Studio(SSIS) tool for integration and different components are used to perform the process. The following 5 steps are configured in a sequential manner and triggered on successful completion of the prior task.
 
-#To continue readig please click on the link: https://github.com/rakshitratan/DataWarehouse-Predictive-Movie-Analytics/blob/master/Rakshit%20Ratan-%20DataStorageAssignmentCA.docx
+# To continue readig please click on the link: https://github.com/rakshitratan/DataWarehouse-Predictive-Movie-Analytics/blob/master/Rakshit%20Ratan-%20DataStorageAssignmentCA.docx
 
 
