@@ -22,4 +22,24 @@ In this project, we will use the IMDB-Movie rank data as well as the movie data 
 The objective of a data warehouse design is to create a schema that is optimized for decision support processing. The relational model is used in systems where many transactions are executed, most of them concurrently. A transaction inserts, updates or in any other way processes data in a database. In many occasions a transaction is an integral part of the business process. A Relational Database is a set of database tables that are related using keys from other database tables. 
 
 ![Alt Text](https://github.com/rakshitratan/DataWarehouse-Predictive-Movie-Analytics/blob/master/IMG-20200423-WA0016.jpg)
+<center> Fig. ENTITY RELATIONSHIP DIAGRAM </center>
+
+Each point of data in each data base can be split into two basic entities, namely attributes and measures. Dimensions or attributes are descriptive details about various objects allowing for their detailed analysis, measures are those that can be added across all dimensions. Measures are called facts. Facts are the reporting unit of any data warehouse, i.e. those are the ones that are manipulated, measured, and reported for analysis. Dimensions are those against which these facts are reported. So, it can be said that dimensions give extra information regarding the facts. A star schema consists of a central fact table which is linked directly to each of the dimension tables via a “one to one” OR “one to many” relationships.
+
+![Alt Text](https://github.com/rakshitratan/DataWarehouse-Predictive-Movie-Analytics/blob/master/IMG-20200423-WA0022.jpg)
+<center>Fig. STAR SCHEMA </center>
+
+<h3>4.	Dimensions Tables:</h3>
+•	Sale Dimension Table/SaleDim: The Sale dimension table consists of five attributes having Sales key as Primary Key, SalesId, No of Tickets sold, LocationId <br>
+•	Date Dimension Table/DateDim: The data dimension table has 6 attributes with DateKey being the Primary Key<br>
+•	Cast Dimension Table/CastDim: The cast dimension table has 10 distinct attributes with CastKey being the Primary Key<br>
+•	Location Dimension Table/LocationDim: The location dimension table has 5 attributes with Locationkey being the Primary key<br>
+•	Movie Dimension Table/MovieDim: The Movie dimension table has 8 attributes with MovieKey being the Primary Key.<br>
+
+<h3> 5.	ETL Process:</h3>
+
+An ETL process is defined for stage-wise loading of different data sources into raw data tables, generating dimensions and facts, and deploying the cube for further BI analysis. This ETL process is configured in Visual Studio(SSIS) tool for integration and different components are used to perform the process. The following 5 steps are configured in a sequential manner and triggered on successful completion of the prior task.
+
+#To continue readig please click on the link: https://github.com/rakshitratan/DataWarehouse-Predictive-Movie-Analytics/blob/master/Rakshit%20Ratan-%20DataStorageAssignmentCA.docx
+
 
